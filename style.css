@@ -1,0 +1,37 @@
+body , html {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100%;
+    color: white;
+    font-weight: bold;
+    
+}
+.container{
+    background-image: url(src/background.jpg);
+    background-size:cover;
+    height: 400px;
+    width: 400px;
+    background-color: green;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    
+}
+
+h1{
+    color: goldenrod;
+}
+
+button{
+    background-color: goldenrod;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+
+}
